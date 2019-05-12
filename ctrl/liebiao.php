@@ -1,0 +1,75 @@
+<?php
+$data=array(
+   
+    0=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a3.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    1=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a4.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    2=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a5.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    3=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a6.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    4=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a7.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    5=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a8.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    0=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/b3.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    6=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/b1.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    7=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/q3.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    8=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a1.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    ),
+    9=>array(
+        'href'=>'谁的作品',
+        'src'=>'../images/a3.jpg',
+        'pic'=>'33',
+        'title'=>'谁翻译的'
+    )
+  
+    );
+
+
+echo json_encode($data);
+?>

@@ -1,0 +1,80 @@
+
+#top{background: #8c222c;height: 36px;font:12px/36px "";width:100%}
+#top a{color:#fff}
+#top .right li a:hover{border-bottom: 1px solid #fff}
+#top .right li:hover {background:rgb(137, 21, 21);}
+#top .left{float:left;display: flex}
+#top .left li{display: flex;}
+#top .left li a{margin:0 10px;}
+
+#top .right{float:right;display: flex}
+#top .right li a{margin:0 15px;}
+#top .right li a img{margin-right:3px;padding-bottom:4px}
+#top .right span{color:#000}
+
+
+header{background: #f2f1ea;height: 100px;position: relative;border-bottom:2px solid #fcfcfa}
+header span{display:block;width:267px;height:47px;background: url(../images/t2.gif) no-repeat;
+margin-top:25px }
+header .right{margin-top:-66px;display:flex;flex-direction:column;margin-left:400px}
+header .right .top ul{margin-top:7px;float:left}
+header .right .top li{float:left;margin:5px 0px;font:12px/24px "";margin-right:12px}
+header .right .top li a:active{color: #912b35;border-bottom:2px solid #912b35}
+header .right div{float:left}
+header .right .bottom li{float:left}
+header .right input:nth-child(1){border-radius:3px 0 0 3px;float:left;display: onoe;border:2px solid #912b35;width:466px;height:28px}
+header .right input:nth-child(2){cursor:pointer;border-radius:0 3px 3px 0;float:left;background: #912b35;display: onoe;border:2px solid #912b35;width:70px;height:32px}
+header .bottom li{font:12px/2 "";margin:2px 0px;margin-right:8px}
+header .bottom li a:hover{color:#912b35}
+
+nav{background: #fff;height:44px;border-bottom:2px solid #bdd7fe}
+nav ul{font:14px/30px "";}
+nav ul li{float:left;margin-right:50px;margin-top:7px}
+nav ul li.de{border-bottom:2px solid #00f;} 
+nav ul li:hover{border-bottom:2px solid #00f;transition: 1s}
+
+#bg{background: #f7f7f6}
+aside{font:12px/2 "";width:140px;position: relative;z-index: 1000;}
+aside dl{float:left ;position: relative;}
+aside dl dt{box-sizing:border-box;border:1px solid #e7e7e7;width:140px;height:25px;background:#901626}
+aside dl dt a{color:#f2f1ea;font:14px/2 "";}
+aside dl dd{box-sizing:border-box;border:1px solid #e7e7e7;width:140px;height:25px;border-top:none}
+aside dl a{margin:5px 5px}
+aside dl dd:hover{background:#fff;box-sizing:border-box;border:2px solid #901626;border-right:none}
+aside dl ul{display:none;background:#fff;position:absolute;z-index: 3; left: 148px;top:0;width:400px;height:300px;border:1px solid #000}
+
+
+
+
+
+
+
+/* aside div.banner{margin-left:8px;width:790px;height:210px;float:left;background:url(../images/t3.jpg) no-repeat center;background-size: cover} */
+
+.box{width:790px;height:210px;position: relative;background-size:cover;overflow: hidden;}
+.box .imgbox{width:790px;height:210px;}
+.imgbox img{width:790px;height:210px;}
+
+.imgbox a{position: absolute;left:790px;overflow:hidden;top:0;height: 210px;width:790px;height:210px;;}
+.imgbox a:nth-child(1){left:0;}
+
+/* .box .btn{} */
+.btn *{border: none;background: rgba(255,255,255,0.6);width:50px;height:50px;position: absolute;top:80px;outline: none;cursor: pointer}
+#left{left:0px}
+#right{right:0px}
+aside .er{height:55px}
+aside .msg{display:none;border:2px solid #901626;width:500px;height:350px;position:absolute;left:140px;background: #fff}
+aside .ll span{display:block;width:392px;height: 30px;background: #e5e1d8}
+aside .ll i{display:block;width:392px;height: 30px;background: #e5e1d8;margin-left:15px}
+aside .ll{display: flex;position: absolute;left:145px;top:220px;justify-content: space-between}
+
+aside .bottom{width: 790px;height:1000px;border:;margin-left:148px;top:250px}
+aside .bottom span.qe{display:block;font: 20px/50px "";widows: 790px;border-bottom: 1px solid #000}
+aside .bottom span a{font: 12px/24px "";}
+
+aside .bottom ul li{float:left;width:128px;height:210px;}
+aside .bottom ul{padding:10px;}
+aside .bottom ul li i img{width: 60px;height:100px}
+aside .bottom ul.te li{width:200px;text-align:center}
+aside .bottom ul.te li i img{width: 160px;height:100px;marging:5px 20px}
+
